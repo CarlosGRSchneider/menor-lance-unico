@@ -23,8 +23,8 @@ https://medium.com/@carlosguilherme.schneider/aws-menor-lance-%C3%BAnico-em-uma-
 
 The code in question is responsible for accepting user bids and persisting them in the database. The LanceController class has 2 methods:
 
-## (POST) 'adicionaLance'
+## (POST) `adicionaLance`
 The method could be named add big. It receives a bid, checks if it is valid through Spring Validation, and if it is valid, persists it in the database and returns the status code 201 to the user.
 
-## (GET) 'consultaLances'
+## (GET) `consultaLances`
 This method could be named get bids. It is only used to check which bids are contained in the database. In a production application, this method would not exist; however, for example purposes, it allows the developer to easily validate the expected results.
